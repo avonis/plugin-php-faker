@@ -1,5 +1,5 @@
 {
-  "name":             "pattern-lab/plugin-faker",
+  "name":             "avonis/plugin-faker",
   "description":      "Faker Support for Pattern Lab",
   "keywords":         ["faker", "pattern lab"],
   "homepage":         "http://patternlab.io",
