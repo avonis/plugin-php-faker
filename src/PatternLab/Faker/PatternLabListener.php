@@ -37,7 +37,7 @@ class PatternLabListener extends \PatternLab\Listener {
     
     // set-up time zone if not already set to prevent errors in PHP 5.4+
     if (!ini_get('date.timezone')) {
-      date_default_timezone_set('UTC');
+      date_default_timezone_set('Europe/Berlin');
     }
     
     // set-up Faker
