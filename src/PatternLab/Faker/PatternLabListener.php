@@ -114,6 +114,8 @@ class PatternLabListener extends \PatternLab\Listener {
       // don't try to parse date or time options. cross our fingers
       return $this->faker->$formatter($options);
       
+    } elseif ( $formatter == "randomElement" ) {
+        return $this->faker->$formatter(explode(",", $options));
     } else {
       
       // get explodey
