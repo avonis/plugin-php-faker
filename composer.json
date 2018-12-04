@@ -34,7 +34,7 @@
         "plugins": {
           "faker": {
             "enabled": true,
-            "locale": "en_US"
+            "locale": "de_DE"
           }
         }
       }
