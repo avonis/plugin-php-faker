@@ -32,7 +32,7 @@ class PatternLabListener extends \PatternLab\Listener {
     
     // set-up locale
     $locale = Config::getOption("plugins.faker.locale");
-    $locale = ($locale) ? $locale : "en_US";
+    $locale = ($locale) ? $locale : "de_DE";
     $this->locale = $locale;
     
     // set-up time zone if not already set to prevent errors in PHP 5.4+
